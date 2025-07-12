@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Happy Birthday</title>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Happy Birthday Xola">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="loading.css">
+  <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
+</head>
+
+<body>
+  <div class="loading"></div>
+
+  <audio class="song" controls loop>
+    <source src="hbd.mp3">
+    Browser anda tidak mendukung audio.
+  </audio>
+
+  <!-- BALLOONS -->
+  <div class="balloons text-center" id="b1"><h2 style="color:#F2B300;">H</h2></div>
+  <div class="balloons text-center" id="b2"><h2 style="color:#0719D4;">B</h2></div>
+  <div class="balloons text-center" id="b3"><h2 style="color:#D14D39;">D</h2></div>
+  <div class="balloons text-center" id="b4"><h2 style="color:#8FAD00;">M</h2></div>
+  <div class="balloons text-center" id="b5"><h2 style="color:#8377E4;">O</h2></div>
+  <div class="balloons text-center" id="b6"><h2 style="color:#99C96A;">M</h2></div>
+  <div class="balloons text-center" id="b7"><h2 style="color:#20CFB4;">O</h2></div>
+  <div class="balloons text-center" id="b8"><h2 style="color:#2FCF20;">N</h2></div>
+  <div class="balloons text-center" id="b9"><h2 style="color:#0719D4;">N</h2></div> <!-- BALON BIRU BARU -->
+
+  <img src="Balloon-Border.png" width="100%" class="balloon-border">
+
+  <div class="container">
+    <!-- lampu -->
+    <div class="row">
+      <div class="col-xs-2 bulb-holder"><div class="bulb" id="bulb_yellow"></div></div>
+      <div class="col-xs-2 bulb-holder"><div class="bulb" id="bulb_red"></div></div>
+      <div class="col-xs-2 bulb-holder"><div class="bulb" id="bulb_blue"></div></div>
+      <div class="col-xs-2 bulb-holder"><div class="bulb" id="bulb_green"></div></div>
+      <div class="col-xs-2 bulb-holder"><div class="bulb" id="bulb_pink"></div></div>
+      <div class="col-xs-2 bulb-holder"><div class="bulb" id="bulb_orange"></div></div>
+    </div>
+
+    <!-- banner & kue -->
+    <div class="row"><div class="col-md-12 text-center"><img src="banner.png" class="bannar"></div></div>
+    <div class="row cake-cover">
+      <div class="col-md-12 text-center">
+        <div class="cake">
+          <div class="velas"><div class="fuego"></div><div class="fuego"></div><div class="fuego"></div><div class="fuego"></div><div class="fuego"></div></div>
+          <div class="cobertura"></div><div class="bizcocho"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MESSAGE -->
+    <div class="row message">
+      <div class="col-md-12">
+        <!-- translated message -->
+        <p>Hari ini...</p>
+        <p>sama indahnya seperti hari‑hari lainnya</p>
+        <p>tapi kau sadar</p>
+        <p>satu tahun telah berlalu</p>
+        <p>dalam sekejap mata</p>
+        <p><strong>namun</strong></p>
+        <p>Tahukah kamu..?</p>
+        <p>hari ini begitu spesial</p>
+        <p>teramat spesial bagimu</p>
+        <p>itulah sebabnya</p>
+        <p>Ayo jadikan perayaan terbaik sepanjang masa</p>
+        <p>dan biarkan aku berbagi sepotong kebahagiaan untukmu</p>
+        <p>Aku menyiapkan semua ini...</p>
+        <p>sebagai hadiah ulang tahun untukmu</p>
+        <p>terima kasih sudah ada</p>
+        <p>terima kasih atas persahabatan kita</p>
+        <p>terima kasih untuk segalanya</p>
+        <p>aku doakan yang terbaik untukmu</p>
+        <p>Semoga hidupmu selalu mudah</p>
+        <p>Semoga semua keinginanmu tercapai</p>
+        <p>Ingatlah</p>
+        <p>cita‑citamu</p>
+        <p>kau hidup laksana burung bebas...</p>
+        <p>terbang di langit biru</p>
+        <p>Sekarang segalanya berbeda...</p>
+        <p>cerita nyata hidupmu</p>
+        <p>baru saja dimulai</p>
+        <p>tapi...</p>
+        <p>jangan khawatir</p>
+        <p>karena...</p>
+        <p>Tuhan selalu menjagamu</p>
+        <p>dan tahun ini akan lebih baik</p>
+        <p>dan aku berharap</p>
+        <p>kau akan menemukan...</p>
+        <p>kebahagiaan di sepanjang jalan</p>
+        <p>tetap semangat</p>
+        <p>nikmati setiap momen yang kau alami hari ini</p>
+        <p>penuhi dengan senyum terindahmu</p>
+        <p>dan jadikan kenangan terbaik...</p>
+        <p>akhirnya...</p>
+        <p>sekali lagi aku ingin mengucapkan</p>
+		<p>selamat ulang tahun, Raissa Jasmine Danisya</p>
+		<p>lovvvv momonnnn ❤❤❤</p>
+		</div>
+    </div>
+
+    <!-- tombol -->
+    <div class="navbar navbar-fixed-bottom">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3 text-center">
+          <button class="btn btn-primary" id="turn_on">Nyalakan Lampu</button>
+          <button class="btn btn-primary" id="play">Putar Musik</button>
+          <button class="btn btn-primary" id="bannar_coming">Hias Duluu</button>
+          <button class="btn btn-primary" id="balloons_flying">Terbangkan Balon</button>
+          <button class="btn btn-primary" id="cake_fadein">Kue Paling Enak</button>
+          <button class="btn btn-primary" id="light_candle">Nyalakan Lilin</button>
+          <button class="btn btn-primary" id="wish_message">Selamat Ulang Tahun</button>
+          <button class="btn btn-primary" id="story">Pesan Untukmu</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <script src="effect.js"></script>
+</body>
+</html>
